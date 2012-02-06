@@ -11,10 +11,12 @@
 - (id)init {
     self = [super init];
     if (self) {
-        self.name = @"Congee Bowery";
-        self.address = @"207 Bowery\nNew York, NY 10002";
+        name = @"Congee Bowery";
+        address = @"207 Bowery\nNew York, NY 10002";
     }
     return self;
 }
+
+
 
 @end

@@ -9,6 +9,7 @@
 @implementation DetailViewController
 @synthesize addressLabel;
 @synthesize navigationHeader;
+@synthesize cuisineLabel;
 
 #pragma mark - View lifecycle
 
@@ -25,6 +26,7 @@
 {
     [self setAddressLabel:nil];
     [self setNavigationHeader:nil];
+    [self setCuisineLabel:nil];
     [super viewDidUnload];
 }
 
